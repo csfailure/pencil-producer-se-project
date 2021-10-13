@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>off.png</file>
+        <file>onn.png</file>
+        <file>light.jpg</file>
+        <file>settings.png</file>
+        <file>exit.jpg</file>
+        <file>save.png</file>
+        <file>close.png</file>
+        <file>back.png</file>
+        <file>1.gif</file>
+        <file>2.gif</file>
+        <file>congrats.gif</file>
+        <file>fire.gif</file>
+        <file>cc.gif</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>719</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:white</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="accessibleName">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>-20</y>
+          <width>191</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Pencil Producer</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>230</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Graphite left: </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="IntelligenceAmount">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>150</y>
+          <width>67</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Amount</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="increasePrice">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>162</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color:rgb(0, 170, 0);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="kc_grant1000">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>370</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(135, 135, 135);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Money + 1000</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Balance">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>110</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Balance</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="PencilInventory">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>117</y>
+          <width>201</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Pencil Inventory</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="MarketingPrice">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>151</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Marketing Price</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="GraphiteLeft">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>230</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>GraphiteLeft</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="APMRate">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>230</y>
+          <width>211</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>APM Rate</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>210</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Wood left: </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Intelligence">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>150</y>
+          <width>91</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Intelligence:</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="decreasePrice">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>162</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(0, 170, 0);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="makePencil">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>35</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color:rgb(33, 118, 255);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Make Pencil</string>
+        </property>
+        <property name="autoDefault">
+         <bool>false</bool>
+        </property>
+        <property name="default">
+         <bool>false</bool>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="save">
+        <property name="geometry">
+         <rect>
+          <x>540</x>
+          <y>0</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#save
+{
+background-color:transparent;
+border-image:url(:save.png);
+background : none;
+border: none;
+background-repeat: none;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="APMs">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>200</y>
+          <width>151</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>APMs</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>90</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Bank Balance</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="PencilPrice">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>140</y>
+          <width>191</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Pencil Price</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="kc_pencil1000_2">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>400</y>
+          <width>121</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(135, 135, 135);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Material + 10</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="PencilsProduced">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>241</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: grey</string>
+        </property>
+        <property name="text">
+         <string>Pencils Produced (to date): </string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="kc_inventory1000">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>370</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(135, 135, 135);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Inventory + 1000</string>
+        </property>
+       </widget>
+       <widget class="QSplitter" name="splitter">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>260</y>
+          <width>261</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QPushButton" name="buyWood">
+         <property name="styleSheet">
+          <string notr="true">:enabled{
+background-color: rgb(170, 85, 0);
+color: black;
+}
+:disabled{
+background-color: rgb(211, 211, 211);
+color: black;
+}</string>
+         </property>
+         <property name="text">
+          <string>Buy Wood</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="buyGraphite">
+         <property name="styleSheet">
+          <string notr="true">:enabled{
+background-color: rgb(135, 135, 135);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+         </property>
+         <property name="text">
+          <string>Buy Graphite</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="home_quitgame">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>0</y>
+          <width>41</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#home_quitgame
+{
+background-color:transparent;
+border-image:url(:close.png);
+background : none;
+border: none;
+background-repeat: none;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="kc_pencil1000">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>400</y>
+          <width>111</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(135, 135, 135);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Pencil + 1000</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="Demand">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>92</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Demand</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="upgradeAPM">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>260</y>
+          <width>121</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(115, 210, 22);
+color: black;
+}
+:disabled{
+background-color: rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Upgrade APM</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="WoodLeft">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>210</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>WoodLeft</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="buyAPM">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>260</y>
+          <width>121</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(255, 233, 65);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Buy More</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="marketing">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>161</width>
+          <height>29</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(0, 190, 255);
+color: black;
+}
+:disabled{
+background-color: rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Marketing</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="PriceOfGraphite">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>323</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Price Graphite</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="PriceOfWood">
+        <property name="geometry">
+         <rect>
+          <x>32</x>
+          <y>324</y>
+          <width>121</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black</string>
+        </property>
+        <property name="text">
+         <string>Price Wood</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="settings">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>0</y>
+          <width>51</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#settings
+{
+background-color:transparent;
+border-image:url(:settings.png);
+background : none;
+border: none;
+background-repeat: none;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="kc_pencil1000_3">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>400</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(135, 135, 135);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Inventory&amp;Pencil +1000</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="kc_pencil1000_4">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>370</y>
+          <width>131</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(135, 135, 135);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Intelligence + 10</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="kc_pencil1000_5">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>400</y>
+          <width>121</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: rgb(135, 135, 135);
+color: black;
+}
+:disabled{
+background-color:rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>Marketing + 3</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="error">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>40</y>
+          <width>161</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(239, 41, 41);</string>
+        </property>
+        <property name="text">
+         <string>Error (Button Disabled)</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QPushButton" name="checkdebug_4">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>101</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#checkdebug_4
+{
+background-color:transparent;
+border-image:url(:off.png);
+background : none;
+border: none;
+background-repeat: none;
+}
+#checkdebug_4:checked
+{
+border-image:url(:onn.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset theme="onn.png">
+          <normaloff>.</normaloff>.</iconset>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>56</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>DEBUGGER</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="back">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>10</y>
+          <width>41</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#back
+{
+background-color:transparent;
+border-image:url(:back.png);
+background : none;
+border: none;
+background-repeat: none;
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset theme="onn.png">
+          <normaloff>.</normaloff>.</iconset>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="home_quitgame_2">
+        <property name="geometry">
+         <rect>
+          <x>640</x>
+          <y>10</y>
+          <width>41</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#home_quitgame_2
+{
+background-color:transparent;
+border-image:url(:close.png);
+background : none;
+border: none;
+background-repeat: none;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QFrame" name="ScoreContainer">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>110</y>
+          <width>241</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-color: rgb(252, 0, 12);</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <widget class="QLabel" name="Highscore">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>211</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: black;</string>
+         </property>
+         <property name="text">
+          <string>Highscore</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QListView" name="Scoreboard">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>40</y>
+           <width>241</width>
+           <height>241</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: white;
+color: black;</string>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::NoEditTriggers</set>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::NoSelection</enum>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="about">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>20</y>
+          <width>101</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#about
+{
+background-color:transparent;
+border-image:url(:off.png);
+background : none;
+border: none;
+background-repeat: none;
+}
+#about:checked
+{
+border-image:url(:onn.png);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset theme="onn.png">
+          <normaloff>.</normaloff>.</iconset>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>56</y>
+          <width>131</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ABOUT THE GAME</string>
+        </property>
+       </widget>
+       <widget class="QTextEdit" name="aboutt">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>110</y>
+          <width>361</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <property name="html">
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Pencil Producer (PePr) is a fun simulation game designed by Kevin Silaj and Jeremy Schulz. The purpose of this game is to use your business and industrial skills in order to produce and  sell your product Your goal as a player is simple. All you have to do is to use your resources and money to produce 25000 pencils and to increase your budget. Don't worry if you get stuck somewhere (Your friend, Debugger is always here to help you). Let's do it!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QPushButton" name="startgame">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>230</y>
+          <width>161</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: grey;
+color: rgb(138, 226, 52);
+}</string>
+        </property>
+        <property name="text">
+         <string>GAME START</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="load">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>230</y>
+          <width>141</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">:enabled{
+background-color: grey;
+color: black;
+}
+:disabled{
+background-color: rgb(211, 211, 211);
+color: black;
+}</string>
+        </property>
+        <property name="text">
+         <string>LOAD</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>70</y>
+          <width>411</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>URW Chancery L</family>
+          <pointsize>29</pointsize>
+          <weight>9</weight>
+          <italic>true</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: black;
+border-color: rgb(78, 154, 6);
+font: 75 italic 29pt &quot;URW Chancery L&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>PENCIL PRODUCER</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="intro">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>-40</y>
+          <width>341</width>
+          <height>511</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>260</y>
+          <width>261</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>YOU PRODUCED 25,000 PENCILS!!!</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>320</y>
+          <width>111</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>PLAY AGAIN?</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>360</y>
+          <width>89</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>YES</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>360</y>
+          <width>89</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>NO</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="congrats">
+        <property name="geometry">
+         <rect>
+          <x>36</x>
+          <y>26</y>
+          <width>611</width>
+          <height>201</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>719</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

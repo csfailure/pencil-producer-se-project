@@ -1,0 +1,37 @@
+{
+    "online-references":[{
+        "url":"https://doc.qt.io/qt-5/qtcore-serialization-savegame-example.html",
+        "contribution":"Implementing save and load",
+        "file":"mainwindow.cpp"
+    }]
+}
+{
+    "sprint-04 online-references":[{
+        "url":"https://curl.haxx.se/libcurl/c/simple.html",
+        "contribution":"Curling things help HTTP GET/POST.",
+        "file":"scoreboard.cpp"
+    }]
+}
+{
+    "sprint-05 online-references":[{
+        "url":"https://stackoverflow.com/questions/3248243/gif-animation-in-qt",
+        "contribution":"GIF UI",
+        "file":"mainwindow.cpp"
+    }]
+}
+{
+    "sprint-05 online-references":[{
+        "url":"https://forum.qt.io/topic/71836/how-to-display-a-picture",
+        "contribution":"Animation UI",
+        "file":"mainwindow.ui"
+    }]
+}
+
+
+{
+    "sprint-05 online-references":[{
+        "url":"https://doc.qt.io/qt-5/qttestlib-tutorial1-example.html",
+        "contribution":"QTests",
+        "file":"test.cpp"
+    }]
+}

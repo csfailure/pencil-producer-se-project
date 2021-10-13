@@ -1,0 +1,24 @@
+{
+    "highscores": [
+        {
+            "game-username": "pencilKing",
+            "score": "1000"
+        },
+        {
+            "game-username": "pencilQueen",
+            "score": "900"
+        },
+        {
+            "game-username": "pencilJack",
+            "score": "100"
+        },
+        {
+            "game-username": "pencilAce",
+            "score": "300"
+        },
+        {
+            "game-username": "pencilMaze",
+            "score": "100"
+        }
+    ]
+}
